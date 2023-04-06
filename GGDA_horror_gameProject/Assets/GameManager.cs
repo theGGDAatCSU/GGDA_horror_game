@@ -4,17 +4,6 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-<<<<<<< Updated upstream
-    //List of Game Objects
-    private static List<GameObject> Items;
-    private int currentItemIndex = 0;
-
-    //On Update Update the Hotbar if Items have changed
-    void Update()
-    {
-
-    }
-=======
     //Controls what the user can do with their cursor
     public enum CursorType
     {
@@ -26,17 +15,12 @@ public class GameManager : MonoBehaviour
     private int currentItemIndex = 0;
     public static GameObject playerHolding;
     public GameObject Hotbar;
->>>>>>> Stashed changes
 
 
     public static void AddItem(GameObject item)
     {
         //Items.Add(item);
 
-<<<<<<< Updated upstream
-        Debug.Log("Add The Item!!");
-    }
-=======
         
         Debug.Log("Add The Item!!");
     }
@@ -60,5 +44,4 @@ public class GameManager : MonoBehaviour
     {
         Hotbar.SetActive(!Hotbar.activeSelf);
     }
->>>>>>> Stashed changes
 }

@@ -4,12 +4,6 @@ using UnityEngine;
 
 public class Interactable : MonoBehaviour
 {
-<<<<<<< Updated upstream
-    public bool collectible;
-    public bool door;
-    public GameObject objectPrefab;
-    public Sprite objectSprite;
-=======
     public enum InteractType 
     { 
         collectible, door, npc, basicInteractable
@@ -20,7 +14,6 @@ public class Interactable : MonoBehaviour
     public GameObject objectPrefab;
     public Sprite objectSprite;
     public string description;
->>>>>>> Stashed changes
     
     public void CollectObject()
     {
@@ -31,7 +24,4 @@ public class Interactable : MonoBehaviour
 
     }
 }
-<<<<<<< Updated upstream
-=======
 
->>>>>>> Stashed changes

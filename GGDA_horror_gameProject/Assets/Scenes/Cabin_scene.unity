@@ -123,8 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
-<<<<<<< Updated upstream
-=======
 --- !u!1001 &54337951
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -267,7 +265,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 4693544126680130928, guid: 7f22ab295f251244fab026e3528d1a2f, type: 3}
   m_PrefabInstance: {fileID: 54337951}
   m_PrefabAsset: {fileID: 0}
->>>>>>> Stashed changes
 --- !u!224 &311739685 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4693544126680130928, guid: 7f22ab295f251244fab026e3528d1a2f, type: 3}
@@ -365,12 +362,9 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-<<<<<<< Updated upstream
-=======
   - {fileID: 311739685}
   - {fileID: 54337952}
   - {fileID: 1601482760}
->>>>>>> Stashed changes
   - {fileID: 2032741623}
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -385,14 +379,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7071236845205550258, guid: 979cd0bfb22072a4bb48b79541c10799, type: 3}
   m_PrefabInstance: {fileID: 7071236845781790778}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream
-=======
 --- !u!1 &593160082 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8907071675102240691, guid: 21b3d6c3b89ea3740973ccf252d43ef0, type: 3}
   m_PrefabInstance: {fileID: 8907071676271063557}
   m_PrefabAsset: {fileID: 0}
->>>>>>> Stashed changes
 --- !u!1 &830147836
 GameObject:
   m_ObjectHideFlags: 0
@@ -560,8 +551,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8907071675102240690, guid: 21b3d6c3b89ea3740973ccf252d43ef0, type: 3}
   m_PrefabInstance: {fileID: 8907071676271063557}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream
-=======
 --- !u!114 &1518202299
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -720,7 +709,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 4693544126680130928, guid: 7f22ab295f251244fab026e3528d1a2f, type: 3}
   m_PrefabInstance: {fileID: 1601482759}
   m_PrefabAsset: {fileID: 0}
->>>>>>> Stashed changes
 --- !u!1001 &1629751323
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -746,11 +734,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4693544126680130928, guid: 7f22ab295f251244fab026e3528d1a2f, type: 3}
       propertyPath: m_AnchorMax.y
-<<<<<<< Updated upstream
-      value: 0.5
-=======
       value: 0
->>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 4693544126680130928, guid: 7f22ab295f251244fab026e3528d1a2f, type: 3}
       propertyPath: m_AnchorMin.x
@@ -758,11 +742,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4693544126680130928, guid: 7f22ab295f251244fab026e3528d1a2f, type: 3}
       propertyPath: m_AnchorMin.y
-<<<<<<< Updated upstream
-      value: 0.5
-=======
       value: 0
->>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 4693544126680130928, guid: 7f22ab295f251244fab026e3528d1a2f, type: 3}
       propertyPath: m_SizeDelta.x
@@ -806,11 +786,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4693544126680130928, guid: 7f22ab295f251244fab026e3528d1a2f, type: 3}
       propertyPath: m_AnchoredPosition.y
-<<<<<<< Updated upstream
-      value: 0
-=======
       value: 34
->>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 4693544126680130928, guid: 7f22ab295f251244fab026e3528d1a2f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -877,10 +853,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd337ce3d0f11514081bbc59da2d37fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< Updated upstream
-=======
   Hotbar: {fileID: 2032741622}
->>>>>>> Stashed changes
 --- !u!4 &1840957461
 Transform:
   m_ObjectHideFlags: 0
@@ -921,11 +894,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4693544126680130928, guid: 7f22ab295f251244fab026e3528d1a2f, type: 3}
       propertyPath: m_AnchorMax.y
-<<<<<<< Updated upstream
-      value: 0.5
-=======
       value: 0
->>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 4693544126680130928, guid: 7f22ab295f251244fab026e3528d1a2f, type: 3}
       propertyPath: m_AnchorMin.x
@@ -933,11 +902,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4693544126680130928, guid: 7f22ab295f251244fab026e3528d1a2f, type: 3}
       propertyPath: m_AnchorMin.y
-<<<<<<< Updated upstream
-      value: 0.5
-=======
       value: 0
->>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 4693544126680130928, guid: 7f22ab295f251244fab026e3528d1a2f, type: 3}
       propertyPath: m_SizeDelta.x
@@ -981,11 +946,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4693544126680130928, guid: 7f22ab295f251244fab026e3528d1a2f, type: 3}
       propertyPath: m_AnchoredPosition.y
-<<<<<<< Updated upstream
-      value: 0
-=======
       value: 34
->>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 4693544126680130928, guid: 7f22ab295f251244fab026e3528d1a2f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1050,20 +1011,12 @@ GameObject:
   - component: {fileID: 2032741625}
   - component: {fileID: 2032741624}
   m_Layer: 5
-<<<<<<< Updated upstream
-  m_Name: Inventory Panel
-=======
   m_Name: Hotbar Panel
->>>>>>> Stashed changes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-<<<<<<< Updated upstream
-  m_IsActive: 1
-=======
   m_IsActive: 0
->>>>>>> Stashed changes
 --- !u!224 &2032741623
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1079,16 +1032,6 @@ RectTransform:
   - {fileID: 1275881629}
   - {fileID: 1373776375}
   - {fileID: 1760611218}
-<<<<<<< Updated upstream
-  - {fileID: 311739685}
-  m_Father: {fileID: 331580780}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 2, y: -192}
-  m_SizeDelta: {x: 0, y: -387.2}
-=======
   m_Father: {fileID: 331580780}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1096,7 +1039,6 @@ RectTransform:
   m_AnchorMax: {x: 0.5, y: 0}
   m_AnchoredPosition: {x: -52.07087, y: 36}
   m_SizeDelta: {x: 691.8583, y: 68.8}
->>>>>>> Stashed changes
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2032741624
 MonoBehaviour:
@@ -1141,11 +1083,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-<<<<<<< Updated upstream
-    m_TransformParent: {fileID: 2032741623}
-=======
     m_TransformParent: {fileID: 331580780}
->>>>>>> Stashed changes
     m_Modifications:
     - target: {fileID: 2060559076950332350, guid: 7f22ab295f251244fab026e3528d1a2f, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -1156,11 +1094,6 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2060559076950332350, guid: 7f22ab295f251244fab026e3528d1a2f, type: 3}
-<<<<<<< Updated upstream
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-=======
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1840957460}
@@ -1180,7 +1113,6 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
->>>>>>> Stashed changes
     - target: {fileID: 4693544126680130928, guid: 7f22ab295f251244fab026e3528d1a2f, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1191,11 +1123,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4693544126680130928, guid: 7f22ab295f251244fab026e3528d1a2f, type: 3}
       propertyPath: m_RootOrder
-<<<<<<< Updated upstream
-      value: 3
-=======
       value: 0
->>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 4693544126680130928, guid: 7f22ab295f251244fab026e3528d1a2f, type: 3}
       propertyPath: m_AnchorMax.x
@@ -1203,11 +1131,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4693544126680130928, guid: 7f22ab295f251244fab026e3528d1a2f, type: 3}
       propertyPath: m_AnchorMax.y
-<<<<<<< Updated upstream
-      value: 0.5
-=======
       value: 0
->>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 4693544126680130928, guid: 7f22ab295f251244fab026e3528d1a2f, type: 3}
       propertyPath: m_AnchorMin.x
@@ -1215,11 +1139,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4693544126680130928, guid: 7f22ab295f251244fab026e3528d1a2f, type: 3}
       propertyPath: m_AnchorMin.y
-<<<<<<< Updated upstream
-      value: 0.5
-=======
       value: 0
->>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 4693544126680130928, guid: 7f22ab295f251244fab026e3528d1a2f, type: 3}
       propertyPath: m_SizeDelta.x
@@ -1247,25 +1167,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4693544126680130928, guid: 7f22ab295f251244fab026e3528d1a2f, type: 3}
       propertyPath: m_LocalRotation.x
-<<<<<<< Updated upstream
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4693544126680130928, guid: 7f22ab295f251244fab026e3528d1a2f, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4693544126680130928, guid: 7f22ab295f251244fab026e3528d1a2f, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4693544126680130928, guid: 7f22ab295f251244fab026e3528d1a2f, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 354.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 4693544126680130928, guid: 7f22ab295f251244fab026e3528d1a2f, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-=======
       value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4693544126680130928, guid: 7f22ab295f251244fab026e3528d1a2f, type: 3}
@@ -1283,7 +1184,6 @@ PrefabInstance:
     - target: {fileID: 4693544126680130928, guid: 7f22ab295f251244fab026e3528d1a2f, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 36
->>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 4693544126680130928, guid: 7f22ab295f251244fab026e3528d1a2f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1299,21 +1199,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7132002340414347037, guid: 7f22ab295f251244fab026e3528d1a2f, type: 3}
       propertyPath: m_Color.b
-<<<<<<< Updated upstream
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7132002340414347037, guid: 7f22ab295f251244fab026e3528d1a2f, type: 3}
-      propertyPath: m_Color.g
-      value: 0.5325454
-      objectReference: {fileID: 0}
-    - target: {fileID: 7132002340414347037, guid: 7f22ab295f251244fab026e3528d1a2f, type: 3}
-      propertyPath: m_Color.r
-      value: 0.44716978
-      objectReference: {fileID: 0}
-    - target: {fileID: 7406825912727441031, guid: 7f22ab295f251244fab026e3528d1a2f, type: 3}
-      propertyPath: m_Name
-      value: Walk Slot (3)
-=======
       value: 0.21278037
       objectReference: {fileID: 0}
     - target: {fileID: 7132002340414347037, guid: 7f22ab295f251244fab026e3528d1a2f, type: 3}
@@ -1327,7 +1212,6 @@ PrefabInstance:
     - target: {fileID: 7406825912727441031, guid: 7f22ab295f251244fab026e3528d1a2f, type: 3}
       propertyPath: m_Name
       value: Bag Button
->>>>>>> Stashed changes
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7f22ab295f251244fab026e3528d1a2f, type: 3}
@@ -1356,11 +1240,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4693544126680130928, guid: 7f22ab295f251244fab026e3528d1a2f, type: 3}
       propertyPath: m_AnchorMax.y
-<<<<<<< Updated upstream
-      value: 0.5
-=======
       value: 0
->>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 4693544126680130928, guid: 7f22ab295f251244fab026e3528d1a2f, type: 3}
       propertyPath: m_AnchorMin.x
@@ -1368,11 +1248,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4693544126680130928, guid: 7f22ab295f251244fab026e3528d1a2f, type: 3}
       propertyPath: m_AnchorMin.y
-<<<<<<< Updated upstream
-      value: 0.5
-=======
       value: 0
->>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 4693544126680130928, guid: 7f22ab295f251244fab026e3528d1a2f, type: 3}
       propertyPath: m_SizeDelta.x
@@ -1416,11 +1292,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4693544126680130928, guid: 7f22ab295f251244fab026e3528d1a2f, type: 3}
       propertyPath: m_AnchoredPosition.y
-<<<<<<< Updated upstream
-      value: 0
-=======
       value: 34
->>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 4693544126680130928, guid: 7f22ab295f251244fab026e3528d1a2f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1447,32 +1319,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1962518774}
     m_Modifications:
-<<<<<<< Updated upstream
-=======
     - target: {fileID: 7071236845205550256, guid: 979cd0bfb22072a4bb48b79541c10799, type: 3}
       propertyPath: objectSprite
       value: 
       objectReference: {fileID: 21300000, guid: d24e7e0b75e1a244bb9687d6fd4315ef, type: 3}
->>>>>>> Stashed changes
     - target: {fileID: 7071236845205550258, guid: 979cd0bfb22072a4bb48b79541c10799, type: 3}
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7071236845205550258, guid: 979cd0bfb22072a4bb48b79541c10799, type: 3}
       propertyPath: m_LocalPosition.x
-<<<<<<< Updated upstream
-      value: 3.1325228
-      objectReference: {fileID: 0}
-    - target: {fileID: 7071236845205550258, guid: 979cd0bfb22072a4bb48b79541c10799, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.13416529
-=======
       value: 2.16
       objectReference: {fileID: 0}
     - target: {fileID: 7071236845205550258, guid: 979cd0bfb22072a4bb48b79541c10799, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0.5
->>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 7071236845205550258, guid: 979cd0bfb22072a4bb48b79541c10799, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1525,19 +1386,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8907071675102240690, guid: 21b3d6c3b89ea3740973ccf252d43ef0, type: 3}
       propertyPath: m_LocalPosition.x
-<<<<<<< Updated upstream
-      value: -8.357477
-      objectReference: {fileID: 0}
-    - target: {fileID: 8907071675102240690, guid: 21b3d6c3b89ea3740973ccf252d43ef0, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 2.7041655
-=======
       value: -8.07
       objectReference: {fileID: 0}
     - target: {fileID: 8907071675102240690, guid: 21b3d6c3b89ea3740973ccf252d43ef0, type: 3}
       propertyPath: m_LocalPosition.y
       value: 1.57
->>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 8907071675102240690, guid: 21b3d6c3b89ea3740973ccf252d43ef0, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1575,12 +1428,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: Door
       objectReference: {fileID: 0}
-<<<<<<< Updated upstream
-=======
     - target: {fileID: 8907071675102240700, guid: 21b3d6c3b89ea3740973ccf252d43ef0, type: 3}
       propertyPath: interactType
       value: 1
       objectReference: {fileID: 0}
->>>>>>> Stashed changes
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 21b3d6c3b89ea3740973ccf252d43ef0, type: 3}

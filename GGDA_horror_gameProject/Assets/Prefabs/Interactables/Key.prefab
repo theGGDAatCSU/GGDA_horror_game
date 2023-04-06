@@ -75,11 +75,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-<<<<<<< Updated upstream
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-=======
   m_Sprite: {fileID: 21300000, guid: 5ef98c70c5f87de488a4ab592246aaed, type: 3}
->>>>>>> Stashed changes
   m_Color: {r: 0.87550414, g: 0.9433962, b: 0.31505868, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -102,17 +98,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5625282d2b99c6d4b8e7d5118b545985, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< Updated upstream
-  collectible: 1
-  door: 0
-  objectPrefab: {fileID: 7071236845205550269}
-  objectSprite: {fileID: 0}
-=======
   interactType: 0
   objectPrefab: {fileID: 7071236845205550269}
   objectSprite: {fileID: 21300000, guid: 5ef98c70c5f87de488a4ab592246aaed, type: 3}
   description: A key... it may be useful later.
->>>>>>> Stashed changes
 --- !u!61 &7071236845205550259
 BoxCollider2D:
   m_ObjectHideFlags: 0
