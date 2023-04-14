@@ -5,13 +5,16 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/Cabin_scene.unity
+    path: Assets/Caleb/Scenes/MainMenu.unity
+    guid: 4350f21fb3e5c6047aef1f3313ce94b4
+  - enabled: 1
+    path: Assets/Caleb/Scenes/Car_Scene.unity
+    guid: 051015b168531ae45b6c19fccab8622e
+  - enabled: 1
+    path: Assets/Eriq/Scenes/Cabin_scene.unity
     guid: 736f0533dbda8dd4a986a3551c412fce
   - enabled: 1
-    path: Assets/Scenes/OutsideCabin_scene.unity
+    path: Assets/Eriq/Scenes/OutsideCabin_scene.unity
     guid: 35104566c2c35e443837036f482dd8bc
   m_configObjects: {}
