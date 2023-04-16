@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - talk_option1
+  - talk_option2
+  - talk_option3
   layers:
   - Default
   - TransparentFX
