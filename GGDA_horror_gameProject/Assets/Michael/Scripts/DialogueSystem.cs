@@ -148,7 +148,8 @@ public class DialogueSystem : MonoBehaviour
 
     public void BlockAOption3()
     {
-
+        Initiate.Fade("Ending_scene4", Color.black, 0.2f);
+        //Invoke("LoadEnding4", 3.0f);
     }
 
     // Block B
@@ -176,7 +177,7 @@ public class DialogueSystem : MonoBehaviour
 
     public void BlockBOption3()
     {
-
+        Initiate.Fade("Ending_scene4", Color.black, 0.2f);
     }
 
     // Block C
@@ -204,7 +205,7 @@ public class DialogueSystem : MonoBehaviour
 
     public void BlockCOption3()
     {
-
+        Initiate.Fade("Ending_scene4", Color.black, 0.2f);
     }
 
     //Block D
@@ -234,11 +235,13 @@ public class DialogueSystem : MonoBehaviour
         DialogueBox_BlockB.SetActive(false);
         DialogueBox_BlockA.SetActive(false);
         DialogueBox_BlockE.SetActive(false);
+
+        Initiate.Fade("Ending_scene1", Color.red, 0.2f);
     }
 
     public void BlockDOption3()
     {
-
+        Initiate.Fade("Ending_scene4", Color.black, 0.2f);
     }
 
     //Block E
@@ -256,6 +259,8 @@ public class DialogueSystem : MonoBehaviour
         DialogueBox_BlockB.SetActive(false);
         DialogueBox_BlockA.SetActive(false);
         DialogueBox_BlockE.SetActive(false);
+
+        Initiate.Fade("Ending_scene2", Color.white, 0.2f);
     }
 
     public void BlockEOption2()
@@ -270,10 +275,13 @@ public class DialogueSystem : MonoBehaviour
         DialogueBox_BlockB.SetActive(false);
         DialogueBox_BlockA.SetActive(false);
         DialogueBox_BlockE.SetActive(false);
+
+        Initiate.Fade("Ending_scene3", Color.red, 0.1f);
     }
 
     public void BlockEOption3()
     {
-
+        Initiate.Fade("Ending_scene4", Color.black, 0.1f);
     }
+
 }
