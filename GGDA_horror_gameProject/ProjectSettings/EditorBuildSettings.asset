@@ -17,4 +17,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Eriq/Scenes/OutsideCabin_scene.unity
     guid: 35104566c2c35e443837036f482dd8bc
+  - enabled: 1
+    path: Assets/Michael/Scenes/DEMO_ending_scenes/Ending_scene1.unity
+    guid: b378fb477b8f54a4aa2ee581a704c366
+  - enabled: 1
+    path: Assets/Michael/Scenes/DEMO_ending_scenes/Ending_scene2.unity
+    guid: 7a9ba5cc114a76d43b70877264129e93
+  - enabled: 1
+    path: Assets/Michael/Scenes/DEMO_ending_scenes/Ending_scene3.unity
+    guid: cf2c90fefd6964c40961a7dd679f0fcf
+  - enabled: 1
+    path: Assets/Michael/Scenes/DEMO_ending_scenes/Ending_scene4.unity
+    guid: 46a4ce03cfa1a6742808c34d1fb935d8
   m_configObjects: {}

@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class DialogueSystem : MonoBehaviour
 {
+    [Header("CONVERSATION BLOCKS")]
     [SerializeField] TMP_Text npcTextBox_BlockA;
     [SerializeField] TMP_Text Option1_BlockA;
     [SerializeField] TMP_Text Option2_BlockA;
@@ -32,10 +33,15 @@ public class DialogueSystem : MonoBehaviour
     [SerializeField] TMP_Text Option3_BlockE;
 
     // Ending Text Variables
+    [Header("ENDING BLOCKS")]
     [SerializeField] TMP_Text npcTextBox_BlockD_ending1;
     [SerializeField] TMP_Text npcTextBox_BlockE_ending2;
     [SerializeField] TMP_Text npcTextBox_BlockE_ending3;
+    [SerializeField] GameObject DialogueBox_npcTextBox_BlockD_ending1;
+    [SerializeField] GameObject DialogueBox_npcTextBox_BlockE_ending2;
+    [SerializeField] GameObject DialogueBox_npcTextBox_BlockE_ending3;
 
+    [Header("DIALOGUE BOXES")]
     public GameObject DialogueBox_BlockA;
     public GameObject DialogueBox_BlockB;
     public GameObject DialogueBox_BlockC;
@@ -93,27 +99,26 @@ public class DialogueSystem : MonoBehaviour
         // ## EDNING 1 ## [Angry FACE on cultist] [Ending 1 Conversation]
         Option3_BlockD.text = "[Leave conversation]";
 
-        /*
+        
         // Sets the Dialogue Text for this Conversation -Block E
-        npcTextBox_BlockD.text = "ISHMAEL \n Lock you in the Cabin? I’d never harm another person, unless it was for their own good. Myself and my family have only the best interest for people in need. We saw your car on the road, we can help get it fixed if you’d like.'";
-        Option1_BlockD.text = "'You seem quite calm and collected. Sure thing, I’ll take you up on your offer. I’ll thank your family in person if I can.'";
+        npcTextBox_BlockE.text = "ISHMAEL \n Lock you in the Cabin? I’d never harm another person, unless it was for their own good. Myself and my family have only the best interest for people in need. We saw your car on the road, we can help get it fixed if you’d like.'";
+        Option1_BlockE.text = "'You seem quite calm and collected. Sure thing, I’ll take you up on your offer. I’ll thank your family in person if I can.'";
         // ## ENDING 2 ## [HAPPY face Cultist][Ending 2 Conversation] 
-        Option2_BlockD.text = "'I don’t think so. I’ll be fine on my own. Leave me alone'";
+        Option2_BlockE.text = "'I don’t think so. I’ll be fine on my own. Leave me alone'";
         // ## ENDING 3 ## [Angry FACE on cultist] [Ending 1 Conversation]
-        Option3_BlockD.text = "[Leave conversation]";
+        Option3_BlockE.text = "[Leave conversation]";
 
 
         // -------------------------------------------------------
         // ##ENDING## Conversation Blocks
         // -------------------------------------------------------
         // Sets the Dialogue Text for this Conversation -Block D - Ending 1
-        npcTextBox_BlockD.text = "ISHMAEL \n 'You shouldn’t have come here.'";
+        npcTextBox_BlockD_ending1.text = "ISHMAEL \n 'You shouldn’t have come here.'";
         // Sets the Dialogue Text for this Conversation -Block E - Ending 2
-        npcTextBox_BlockD.text = "ISHMAEL \n 'You are just the kind of person we’d love to get to know.'";
+        npcTextBox_BlockE_ending2.text = "ISHMAEL \n 'You are just the kind of person we’d love to get to know.'";
         // Sets the Dialogue Text for this Conversation -Block E - Ending 3
-        npcTextBox_BlockD.text = "You have denied our hospitality? We will show you the true meaning of humbleness.'";
-
-        */   
+        npcTextBox_BlockE_ending3.text = "ISHMAEL \n 'You have denied our hospitality? We will show you the true meaning of humbleness.'";
+  
     }
 
     // Decision Tree METHODS
@@ -128,7 +133,7 @@ public class DialogueSystem : MonoBehaviour
         DialogueBox_BlockA.SetActive(false);
         DialogueBox_BlockC.SetActive(false);
         DialogueBox_BlockD.SetActive(false);
-       // DialogueBox_BlockE.SetActive(false);
+        DialogueBox_BlockE.SetActive(false);
     }
 
     public void BlockAOption2()
@@ -138,7 +143,7 @@ public class DialogueSystem : MonoBehaviour
         DialogueBox_BlockA.SetActive(false);
         DialogueBox_BlockC.SetActive(false);
         DialogueBox_BlockD.SetActive(false);
-        //DialogueBox_BlockE.SetActive(false);
+        DialogueBox_BlockE.SetActive(false);
     }
 
     public void BlockAOption3()
@@ -156,7 +161,7 @@ public class DialogueSystem : MonoBehaviour
         DialogueBox_BlockB.SetActive(false);
         DialogueBox_BlockA.SetActive(false);
         DialogueBox_BlockD.SetActive(false);
-        //DialogueBox_BlockE.SetActive(false);
+        DialogueBox_BlockE.SetActive(false);
     }
 
     public void BlockBOption2()
@@ -166,7 +171,7 @@ public class DialogueSystem : MonoBehaviour
         DialogueBox_BlockB.SetActive(false);
         DialogueBox_BlockA.SetActive(false);
         DialogueBox_BlockD.SetActive(false);
-        //DialogueBox_BlockE.SetActive(false);
+        DialogueBox_BlockE.SetActive(false);
     }
 
     public void BlockBOption3()
@@ -184,7 +189,7 @@ public class DialogueSystem : MonoBehaviour
         DialogueBox_BlockC.SetActive(false);
         DialogueBox_BlockB.SetActive(false);
         DialogueBox_BlockA.SetActive(false);
-        //DialogueBox_BlockE.SetActive(false);
+        DialogueBox_BlockE.SetActive(false);
     }
 
     public void BlockCOption2()
@@ -194,7 +199,7 @@ public class DialogueSystem : MonoBehaviour
         DialogueBox_BlockC.SetActive(false);
         DialogueBox_BlockB.SetActive(false);
         DialogueBox_BlockA.SetActive(false);
-        //DialogueBox_BlockE.SetActive(false);
+        DialogueBox_BlockE.SetActive(false);
     }
 
     public void BlockCOption3()
@@ -202,5 +207,73 @@ public class DialogueSystem : MonoBehaviour
 
     }
 
+    //Block D
+    //
+    //
+    public void BlockDOption1()
+    {
+        // Sets Conversation Block E ACTIVE
+        DialogueBox_BlockE.SetActive(true);
+        
+        DialogueBox_BlockD.SetActive(false);
+        DialogueBox_BlockC.SetActive(false);
+        DialogueBox_BlockB.SetActive(false);
+        DialogueBox_BlockA.SetActive(false);
 
+    }
+
+    public void BlockDOption2()
+    {
+        //Sets Ending 1 - dialogue box ACTIVE
+        DialogueBox_npcTextBox_BlockD_ending1.SetActive(true);
+        DialogueBox_npcTextBox_BlockE_ending2.SetActive(false);
+        DialogueBox_npcTextBox_BlockE_ending3.SetActive(false);
+
+        DialogueBox_BlockD.SetActive(false);
+        DialogueBox_BlockC.SetActive(false);
+        DialogueBox_BlockB.SetActive(false);
+        DialogueBox_BlockA.SetActive(false);
+        DialogueBox_BlockE.SetActive(false);
+    }
+
+    public void BlockDOption3()
+    {
+
+    }
+
+    //Block E
+    //
+    //
+    public void BlockEOption1()
+    {
+        //Sets Ending 2 - dialogue box ACTIVE
+        DialogueBox_npcTextBox_BlockD_ending1.SetActive(false);
+        DialogueBox_npcTextBox_BlockE_ending2.SetActive(true);
+        DialogueBox_npcTextBox_BlockE_ending3.SetActive(false);
+
+        DialogueBox_BlockD.SetActive(false);
+        DialogueBox_BlockC.SetActive(false);
+        DialogueBox_BlockB.SetActive(false);
+        DialogueBox_BlockA.SetActive(false);
+        DialogueBox_BlockE.SetActive(false);
+    }
+
+    public void BlockEOption2()
+    {
+        //Sets Ending 3 - dialogue box ACTIVE
+        DialogueBox_npcTextBox_BlockD_ending1.SetActive(false);
+        DialogueBox_npcTextBox_BlockE_ending2.SetActive(false);
+        DialogueBox_npcTextBox_BlockE_ending3.SetActive(true);
+
+        DialogueBox_BlockD.SetActive(false);
+        DialogueBox_BlockC.SetActive(false);
+        DialogueBox_BlockB.SetActive(false);
+        DialogueBox_BlockA.SetActive(false);
+        DialogueBox_BlockE.SetActive(false);
+    }
+
+    public void BlockEOption3()
+    {
+
+    }
 }
