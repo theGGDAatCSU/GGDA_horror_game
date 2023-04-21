@@ -19,6 +19,11 @@ public class mainMenu : MonoBehaviour
 
     }
 
+    public void playCredits()
+    {
+        SceneManager.LoadScene("Credits");
+    }
+
     private void Awake()
     {
         settingsMenu.SetActive(false);

@@ -5,37 +5,35 @@ using UnityEngine.UI;
 
 public class AudioManager : MonoBehaviour
 {
-    public AudioMixer mixer;
-    public Slider master;
-    public Slider bgm;
-    public Slider sfx;
+    float menuVolume;
+    public AudioSource myAudio;
+
+    public Slider masterSlider;
+
+    public Slider bgmSlider;
+
+    public Slider sfxSlider;
 
     public Sound[] sounds;
     // Start is called before the first frame update
-    void Awake()
-    {
-        foreach (Sound s in sounds)
-        {
-            s.source = gameObject.AddComponent<AudioSource>();
-        }
-    }
 
-    public void Play (string name)
+    private void FixedUpdate()
     {
-        Sound s = Array.Find(sounds, sound => sound.name == name);
-        s.source.Play();
+        myAudio.volume = bgmSlider.value;
     }
 
     public void ChangeMaster()
     {
-        mixer.SetFloat("MasterVolume", Mathf.Log10(master.value) * 20);
+        //float x = masterSlider.value;
+        //mixer.SetFloat("MasterVolume", Mathf.Log10(x) * 20);
     }
     public void ChangeBGM()
     {
-        mixer.SetFloat("BGMVolume", Mathf.Log10(master.value) * 20);
+        //bgmSlider.value = myAudio.volume;
+        //this.GetComponent<AudioSource>().volume = masterSlider.value;
     }
     public void ChangeSFX()
     {
-        mixer.SetFloat("SFXVolume", Mathf.Log10(master.value) * 20);
+        //mixer.SetFloat("SFXVolume", Mathf.Log10(sfxSlider.value) * 20);
     }
 }
