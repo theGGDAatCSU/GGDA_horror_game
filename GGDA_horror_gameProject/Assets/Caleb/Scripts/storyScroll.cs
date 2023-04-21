@@ -162,7 +162,7 @@ public class storyScroll : MonoBehaviour
             }
             if (index == 16)
             {
-                SceneManager.LoadScene("Cabin_scene");
+                SceneManager.LoadScene(2);
             }
             NextLine();
             

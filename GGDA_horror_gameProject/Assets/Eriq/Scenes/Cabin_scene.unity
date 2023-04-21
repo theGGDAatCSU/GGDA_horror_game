@@ -190,6 +190,10 @@ PrefabInstance:
       propertyPath: moveArrow
       value: 
       objectReference: {fileID: 2800000, guid: 1096c51d584ee8e4b8a4649f49655b4e, type: 3}
+    - target: {fileID: 7462329282614367844, guid: b3aa8b8ac0a449148a900fc831fa5db0, type: 3}
+      propertyPath: interactorDescription
+      value: 
+      objectReference: {fileID: 1870319449}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b3aa8b8ac0a449148a900fc831fa5db0, type: 3}
 --- !u!4 &108165443 stripped
@@ -980,6 +984,10 @@ PrefabInstance:
       propertyPath: moveArrow
       value: 
       objectReference: {fileID: 2800000, guid: 14da6194c0b12b949a0e650713747b3d, type: 3}
+    - target: {fileID: 7462329282614367844, guid: b3aa8b8ac0a449148a900fc831fa5db0, type: 3}
+      propertyPath: interactorDescription
+      value: 
+      objectReference: {fileID: 1870319449}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b3aa8b8ac0a449148a900fc831fa5db0, type: 3}
 --- !u!1 &1374897876
@@ -1149,6 +1157,10 @@ PrefabInstance:
       propertyPath: moveArrow
       value: 
       objectReference: {fileID: 2800000, guid: 1096c51d584ee8e4b8a4649f49655b4e, type: 3}
+    - target: {fileID: 7462329282614367844, guid: b3aa8b8ac0a449148a900fc831fa5db0, type: 3}
+      propertyPath: interactorDescription
+      value: 
+      objectReference: {fileID: 1870319449}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b3aa8b8ac0a449148a900fc831fa5db0, type: 3}
 --- !u!1 &1500422653
@@ -1252,6 +1264,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b6cafedd1eb1545a09719f8f56771a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  interactorDescription: {fileID: 1870319449}
   locked: 1
   attachedKey: {fileID: 315591632110279263, guid: 8a3e316826076fb4aa40d92b796e9c08, type: 3}
   interactedSprite: {fileID: 0}
@@ -1271,6 +1284,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0d250ecc0fe2744ba7962028ca10d43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  interactorDescription: {fileID: 1870319449}
   isSceneTransition: 1
   scene: 3
   moveArrow: {fileID: 2800000, guid: bed8ff41ee45c9e4eb5399aacc4c6904, type: 3}
@@ -1375,6 +1389,10 @@ PrefabInstance:
       propertyPath: moveArrow
       value: 
       objectReference: {fileID: 2800000, guid: 1096c51d584ee8e4b8a4649f49655b4e, type: 3}
+    - target: {fileID: 7462329282614367844, guid: b3aa8b8ac0a449148a900fc831fa5db0, type: 3}
+      propertyPath: interactorDescription
+      value: 
+      objectReference: {fileID: 1870319449}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b3aa8b8ac0a449148a900fc831fa5db0, type: 3}
 --- !u!1 &1772036233
@@ -1525,6 +1543,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b58dccc52e559b6498fcbd8268446356, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  interactorDescription: {fileID: 1870319449}
 --- !u!114 &1840957460
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1552,6 +1571,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1870319449 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2629705828868418226, guid: 4a2a0fe9f7b4ae34192c39740c0e8878, type: 3}
+  m_PrefabInstance: {fileID: 4365938897000093178}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1962518773
 GameObject:
   m_ObjectHideFlags: 0
@@ -1703,6 +1733,34 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2014912950732294946, guid: 4a2a0fe9f7b4ae34192c39740c0e8878, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014912950732294946, guid: 4a2a0fe9f7b4ae34192c39740c0e8878, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014912950732294946, guid: 4a2a0fe9f7b4ae34192c39740c0e8878, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 663.4117
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014912950732294946, guid: 4a2a0fe9f7b4ae34192c39740c0e8878, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 47.8141
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014912950732294946, guid: 4a2a0fe9f7b4ae34192c39740c0e8878, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014912950732294946, guid: 4a2a0fe9f7b4ae34192c39740c0e8878, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 35.09296
+      objectReference: {fileID: 0}
+    - target: {fileID: 2629705828868418226, guid: 4a2a0fe9f7b4ae34192c39740c0e8878, type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 4365938897239396498, guid: 4a2a0fe9f7b4ae34192c39740c0e8878, type: 3}
       propertyPath: m_Name
       value: UICanvas
@@ -1791,6 +1849,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4365938897409005201, guid: 4a2a0fe9f7b4ae34192c39740c0e8878, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -697.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 4365938897825743419, guid: 4a2a0fe9f7b4ae34192c39740c0e8878, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a2a0fe9f7b4ae34192c39740c0e8878, type: 3}
 --- !u!1001 &7462329283811061906
@@ -1872,6 +1938,10 @@ PrefabInstance:
       propertyPath: moveArrow
       value: 
       objectReference: {fileID: 2800000, guid: 14da6194c0b12b949a0e650713747b3d, type: 3}
+    - target: {fileID: 7462329282614367844, guid: b3aa8b8ac0a449148a900fc831fa5db0, type: 3}
+      propertyPath: interactorDescription
+      value: 
+      objectReference: {fileID: 1870319449}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b3aa8b8ac0a449148a900fc831fa5db0, type: 3}
 --- !u!4 &8907071674385139718 stripped

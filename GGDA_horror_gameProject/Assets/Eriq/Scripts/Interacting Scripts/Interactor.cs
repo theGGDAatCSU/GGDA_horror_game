@@ -1,9 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class Interactor : MonoBehaviour
 {
+    // [Michael] - Variables for Item Descriptionin UI
+    [Header("Item Desciption UI")]
+    [SerializeField] TMP_Text interactorDescription;
 
     void Update()
     {
@@ -51,7 +55,10 @@ public class Interactor : MonoBehaviour
         Interactable item = gameObject.GetComponent<Interactable>();
         if (item != null)
         {
-            Debug.Log(item.description);
+            //Debug.Log(item.description);
+            // [Michael] - commented this code out and added code below
+            interactorDescription.text = item.description;
+            //
         }
     }
 

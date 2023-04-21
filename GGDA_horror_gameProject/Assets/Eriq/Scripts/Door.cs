@@ -2,9 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class Door : MonoBehaviour
 {
+
+    // [Michael] - Variables for Item Descriptionin UI
+    [Header("Item Desciption UI")]
+    [SerializeField] TMP_Text interactorDescription;
+
     public bool locked = true;
     public GameObject attachedKey;
 
@@ -31,11 +37,17 @@ public class Door : MonoBehaviour
             }
             
             GameManager.DeleteItem(item);
-            Debug.Log(openingDoorText);
+            //Debug.Log(openingDoorText);
+            // [Michael] - commented this code out and added code below
+            interactorDescription.text = openingDoorText;
+            //
         }
         else
         {
-            Debug.Log(wrongItemText);
+            //Debug.Log(wrongItemText);
+            // [Michael] - commented this code out and added code below
+            interactorDescription.text = wrongItemText;
+            //
         }
     }
 }

@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Michael/Scenes/DEMO_ending_scenes/Ending_scene4.unity
     guid: 46a4ce03cfa1a6742808c34d1fb935d8
+  - enabled: 1
+    path: Assets/Michael/Scenes/Credits_updated.unity
+    guid: 5b67708de93b5d34e9a67f37083504d6
   m_configObjects: {}

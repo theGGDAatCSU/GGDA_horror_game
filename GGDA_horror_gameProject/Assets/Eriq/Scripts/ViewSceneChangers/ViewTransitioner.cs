@@ -1,9 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class ViewTransitioner : MonoBehaviour
 {
+    // [Michael] - Variables for Item Descriptionin UI
+    [Header("Item Desciption UI")]
+    [SerializeField] TMP_Text interactorDescription;
+
     public bool isSceneTransition;
     public int scene;
 
@@ -25,6 +30,8 @@ public class ViewTransitioner : MonoBehaviour
         if(GameManager.cursorType == GameManager.CursorType.Interact)
         {
             GameManager.ClearHeldItem();
+            //[Michael] - Clear Item Description UI Panel when transitioning
+            interactorDescription.text = "";
         }
         
     }

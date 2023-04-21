@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+
     //Controls what the user can do with their cursor
     public enum CursorType
     {

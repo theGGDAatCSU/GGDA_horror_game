@@ -14,14 +14,14 @@ public class mainMenu : MonoBehaviour
 
     public void changeLevel()
     {
-        SceneManager.LoadScene("Car_Scene");
+        SceneManager.LoadScene(1);
 
 
     }
 
     public void playCredits()
     {
-        SceneManager.LoadScene("Credits");
+        SceneManager.LoadScene(8);
     }
 
     private void Awake()

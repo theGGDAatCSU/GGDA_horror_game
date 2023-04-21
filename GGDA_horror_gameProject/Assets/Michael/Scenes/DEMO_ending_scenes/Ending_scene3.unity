@@ -630,7 +630,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 739089696}
         m_TargetAssemblyTypeName: EndGame_Menu, Assembly-CSharp
-        m_MethodName: RestartGame
+        m_MethodName: MainMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -991,8 +991,8 @@ MonoBehaviour:
   m_text: 'You angered the stranger and his offer for help. The stranger swiftly
     attacked you and took you to the Collective ritual [to be continued] '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
-  m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1280,7 +1280,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 739089696}
         m_TargetAssemblyTypeName: EndGame_Menu, Assembly-CSharp
-        m_MethodName: RestartGame
+        m_MethodName: QuitGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1669,7 +1669,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 4ea1f2cbc82ba5544a0cb4b567bd954c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 06db62a70acb8c049a4ea716911a21c9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1688,8 +1688,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2092229168}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.04, y: -0.57, z: 0}
-  m_LocalScale: {x: 1.24735, y: 1.249007, z: 1.2744968}
+  m_LocalPosition: {x: -0.26, y: -0.14, z: 0}
+  m_LocalScale: {x: 0.6790573, y: 0.67995936, z: 0.69383603}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1722085501}
