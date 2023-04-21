@@ -1761,6 +1761,14 @@ PrefabInstance:
       propertyPath: m_text
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 2629705828868418226, guid: 4a2a0fe9f7b4ae34192c39740c0e8878, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8a2fa8cac1671c749860f9661b516a61, type: 2}
+    - target: {fileID: 2629705828868418226, guid: 4a2a0fe9f7b4ae34192c39740c0e8878, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4365938897239396498, guid: 4a2a0fe9f7b4ae34192c39740c0e8878, type: 3}
       propertyPath: m_Name
       value: UICanvas

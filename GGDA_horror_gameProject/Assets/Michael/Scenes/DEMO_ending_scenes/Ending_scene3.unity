@@ -183,8 +183,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: MAIN MENU
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
-  m_sharedMaterial: {fileID: 2147374, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8a2fa8cac1671c749860f9661b516a61, type: 2}
+  m_sharedMaterial: {fileID: 5640541329277981380, guid: 8a2fa8cac1671c749860f9661b516a61, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -738,8 +738,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: QUIT GAME
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
-  m_sharedMaterial: {fileID: 2147374, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8a2fa8cac1671c749860f9661b516a61, type: 2}
+  m_sharedMaterial: {fileID: 5640541329277981380, guid: 8a2fa8cac1671c749860f9661b516a61, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -965,7 +965,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 35.293, y: 376}
+  m_AnchoredPosition: {x: 35.293, y: 392}
   m_SizeDelta: {x: 1428.762, y: 265.988}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &778370483
@@ -988,18 +988,22 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'You angered the stranger and his offer for help. The stranger swiftly
-    attacked you and took you to the Collective ritual [to be continued] '
+  m_text: "Theodore\u2019s face contorts in anger. You are caught off guard as his
+    fist strikes you. The air leaves your body and you find yourself curled on the
+    ground. Your hands are bound and with inhuman strength, Theodore drags you through
+    the woods. After a few minutes, you are taken to a clearing and with bleary eyes,
+    you can make out a few other figures dressed similarly before your vision is
+    obstructed by a bag slipped over your head."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8a2fa8cac1671c749860f9661b516a61, type: 2}
+  m_sharedMaterial: {fileID: 5640541329277981380, guid: 8a2fa8cac1671c749860f9661b516a61, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278253562
-  m_fontColor: {r: 0.98039216, g: 0.9692473, b: 0, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1016,14 +1020,14 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 55
-  m_fontSizeBase: 55
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 8
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -1388,8 +1392,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: RESTART GAME
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
-  m_sharedMaterial: {fileID: 2147374, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8a2fa8cac1671c749860f9661b516a61, type: 2}
+  m_sharedMaterial: {fileID: 5640541329277981380, guid: 8a2fa8cac1671c749860f9661b516a61, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

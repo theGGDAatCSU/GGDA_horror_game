@@ -79,32 +79,32 @@ public class DialogueSystem : MonoBehaviour
         Option3_BlockA.text = "[Leave conversation]";
 
         // Sets the Dialogue Text for this Conversation - Block B
-        npcTextBox_BlockB.text = "STRANGER \n 'My friends call me Ishmael. And whom do I have the pleasure of speaking with?'";
-        Option1_BlockB.text = "'I’m [Player Name here]'";
-        Option2_BlockB.text = "'Umm, hi. Yeh, the name’s Cornelius.'";
+        npcTextBox_BlockB.text = "STRANGER \n'I’m Theodore but my friends call me Teddy. I don’t want to hog the spotlight though, who are you?'";
+        Option1_BlockB.text = "'I’m Arthur Coril'";
+        Option2_BlockB.text = "'(Lie) Nice to meet you Theodore, I’m Arin Esman'";
         Option3_BlockB.text = "[Leave conversation]";
 
         
         // Sets the Dialogue Text for this Conversation - Block C
-        npcTextBox_BlockC.text = "ISHMAEL \n 'It’s an honor and a privilege to meet you'";
+        npcTextBox_BlockC.text = "THEODORE \n 'Well it’s a pleasure to meet you.'";
         Option1_BlockC.text = "'Have you seen anyone else here?'";
         Option2_BlockC.text = "'So, you’re wondering about the woods alone? Is there anyone with you?'";
         Option3_BlockC.text = "[Leave conversation]";
 
         
         // Sets the Dialogue Text for this Conversation - Block D
-        npcTextBox_BlockD.text = "ISHMAEL \n 'Only you, nobody comes out here this late, come on, we should get you back to town, it can be dangerous out here.'";
-        Option1_BlockD.text = "'Did you lock me in that cabin?'";
-        Option2_BlockD.text = "'I don’t think so. I’ll be fine on my own. Leave me alone'";
+        npcTextBox_BlockD.text = "THEODORE \n 'Only you, nobody comes out here this late, come on, we should get you back to town, it can be dangerous out here.'";
+        Option1_BlockD.text = "'Have you seen anyone around who might have locked me in that cabin?'";
+        Option2_BlockD.text = "'Thanks for the hospitality but I’ll be fine on my own. It’s not exactly smart to trust some rube in the woods.'";
         // ## EDNING 1 ## [Angry FACE on cultist] [Ending 1 Conversation]
         Option3_BlockD.text = "[Leave conversation]";
 
         
         // Sets the Dialogue Text for this Conversation -Block E
-        npcTextBox_BlockE.text = "ISHMAEL \n Lock you in the Cabin? I’d never harm another person, unless it was for their own good. Myself and my family have only the best interest for people in need. We saw your car on the road, we can help get it fixed if you’d like.'";
-        Option1_BlockE.text = "'You seem quite calm and collected. Sure thing, I’ll take you up on your offer. I’ll thank your family in person if I can.'";
+        npcTextBox_BlockE.text = "THEODORE \n Lock you in the Cabin? No, I don't think anyone did that. Sometimes the old cabin door catches itself and locks when it closes. Most of us who come out here to hunt have our own copy of the key so we haven’t cared to fix it yet. Sorry that happened to you friend, what say you and I head back to town and get you a meal and maybe a tow truck to the mechanic's place?'";
+        Option1_BlockE.text = "'I would appreciate that, now that I think on it, I am fairly hungry.'";
         // ## ENDING 2 ## [HAPPY face Cultist][Ending 2 Conversation] 
-        Option2_BlockE.text = "'I don’t think so. I’ll be fine on my own. Leave me alone'";
+        Option2_BlockE.text = "'A hunting cabin with a door that locks on the outside? You all just so happen to have keys? That’s it, I’m getting  out of here!'";
         // ## ENDING 3 ## [Angry FACE on cultist] [Ending 1 Conversation]
         Option3_BlockE.text = "[Leave conversation]";
 
@@ -113,11 +113,11 @@ public class DialogueSystem : MonoBehaviour
         // ##ENDING## Conversation Blocks
         // -------------------------------------------------------
         // Sets the Dialogue Text for this Conversation -Block D - Ending 1
-        npcTextBox_BlockD_ending1.text = "ISHMAEL \n 'You shouldn’t have come here.'";
+        npcTextBox_BlockD_ending1.text = "THEODORE \n 'If you say so.'";
         // Sets the Dialogue Text for this Conversation -Block E - Ending 2
-        npcTextBox_BlockE_ending2.text = "ISHMAEL \n 'You are just the kind of person we’d love to get to know.'";
+        npcTextBox_BlockE_ending2.text = "THEODORE \n 'You know, there are some people in town I’d love for you to meet. You can I’ll introduce them while the mechanic works on your car.'";
         // Sets the Dialogue Text for this Conversation -Block E - Ending 3
-        npcTextBox_BlockE_ending3.text = "ISHMAEL \n 'You have denied our hospitality? We will show you the true meaning of humbleness.'";
+        npcTextBox_BlockE_ending3.text = "THEODORE \n 'I think you might be too smart for your own good my friend. Try keeping that to yourself next time, you’ve just lost the privilege of calling me Teddy.'";
   
     }
 

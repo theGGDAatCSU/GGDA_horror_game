@@ -183,8 +183,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: MAIN MENU
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
-  m_sharedMaterial: {fileID: 2147374, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8a2fa8cac1671c749860f9661b516a61, type: 2}
+  m_sharedMaterial: {fileID: 5640541329277981380, guid: 8a2fa8cac1671c749860f9661b516a61, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -738,8 +738,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: QUIT GAME
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
-  m_sharedMaterial: {fileID: 2147374, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8a2fa8cac1671c749860f9661b516a61, type: 2}
+  m_sharedMaterial: {fileID: 5640541329277981380, guid: 8a2fa8cac1671c749860f9661b516a61, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -965,7 +965,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 35.293, y: 347}
+  m_AnchoredPosition: {x: 19, y: 406}
   m_SizeDelta: {x: 1428.762, y: 265.988}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &778370483
@@ -988,18 +988,22 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "You were too careless and followed the stranger. He led you to a dark
-    wooded area\u2026the Collective has you"
+  m_text: "As Theodore leads you through the woods you begin to grow uneasy, as if
+    someone\u2019s watching you. Suddenly you hear movement behind, you turn around
+    but are too late. A group of hooded figures appear before you. Several of them
+    grab you. As they do, another slips a bag over your head, blocking your view.
+    They guide you blindly through the forest and they force you to your knees. Through
+    the bag you notice a light from below you. This can\u2019t be good."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8a2fa8cac1671c749860f9661b516a61, type: 2}
+  m_sharedMaterial: {fileID: 5640541329277981380, guid: 8a2fa8cac1671c749860f9661b516a61, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278253562
-  m_fontColor: {r: 0.98039216, g: 0.9692473, b: 0, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1016,14 +1020,14 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 55
-  m_fontSizeBase: 55
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 8
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -1388,8 +1392,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: RESTART GAME
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
-  m_sharedMaterial: {fileID: 2147374, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8a2fa8cac1671c749860f9661b516a61, type: 2}
+  m_sharedMaterial: {fileID: 5640541329277981380, guid: 8a2fa8cac1671c749860f9661b516a61, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1688,7 +1692,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2092229168}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.25, y: -0.33, z: 0}
+  m_LocalPosition: {x: -0.25, y: -0.37, z: 0}
   m_LocalScale: {x: 0.680589, y: 0.6814931, z: 0.6954011}
   m_ConstrainProportionsScale: 0
   m_Children: []
